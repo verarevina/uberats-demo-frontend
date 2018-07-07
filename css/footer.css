@@ -1,0 +1,83 @@
+.footer {
+	background-color: #262626;
+	color: #FFF;
+}
+
+.logo-footer {
+	display: inline-block;
+	margin-top:56px;
+	margin-right: 8px;
+	margin-bottom: 40px;
+}
+ 
+.icon-select {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.language-select {
+	background: transparent;
+  width: 130px;
+  font-size: 13px;
+	height: 40px;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #3B3B3B;
+	color: #fff;
+	outline: none;
+}
+
+.language-wrapper {
+	width: 176px;
+	height: 40px;
+	overflow: hidden;
+	background-color:#3B3B3B;
+}
+
+.links {
+	margin: 32px 0 40px;
+}
+
+.hashtag {
+	font-size: 16px;
+	margin: 0;
+}
+
+.hashtag-green {
+	color: #49A144;
+}
+
+.social {
+margin: 20px 0;
+}
+
+.footer-link {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 13px;
+	margin-top: 23px;
+	font-weight: 200;
+}
+
+.footer-copywrite {
+	font-size: 11px;
+	margin-top: 23px;
+}
+
+.btn-download {
+  margin: 40px 0;
+}
+
+.block-up {
+  position: relative;
+  top:-30px;
+  right: 20px;
+  background-color: #59BD5A;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border-radius: 2px;
+  padding:20px;
+}
