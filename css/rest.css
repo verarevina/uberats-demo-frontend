@@ -1,0 +1,68 @@
+
+.restaurants {
+	overflow: hidden;
+}
+
+.restaurants-header {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.restaurant-card {
+	margin-bottom: 36px;
+}
+
+.restaurant-pic {
+	width: 100%;
+}
+
+.restaurant-name {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 14px 0 0;
+}
+
+.restaurant-kind{
+	color: #626262;
+	font-size: 14px;
+	margin: 6px 0;
+}
+
+.restaurant-term {
+	color: #1d1d1d;
+	font-size: 13px;
+	margin: 6px 0;
+}
+
+.card-4 {
+	margin-bottom:48px;
+}
+
+@media (min-width: 575px) {
+	.card-4 {
+		margin-bottom:36px;
+	}
+}
+
+@media (max-width: 575px) {
+	.card-5,
+	.card-6,
+	.card-7,
+	.card-8,
+	.card-9 {
+		display:none;
+	}
+}
+@media (min-width:992px) {
+  .card-9,
+  .card-8,
+  .card-7 {
+	margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+	.card-9 {
+		margin-bottom: 48px;
+	}
+}
