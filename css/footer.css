@@ -1,83 +1,75 @@
 .footer {
-	background-color: #262626;
-	color: #FFF;
+  color: #fff;
+  background-color: #262626;
 }
 
 .logo-footer {
-	display: inline-block;
-	margin-top:56px;
-	margin-right: 8px;
-	margin-bottom: 40px;
+  display: inline-block;
+  margin: 56px 8px 40px 0;
 }
- 
+
 .icon-select {
-	display: inline-block;
-	vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .language-select {
-	background: transparent;
-  width: 130px;
+  padding-left:50px;
+  width: 173px;
+  height: 40px;
   font-size: 13px;
-	height: 40px;
-	border: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	background-color: #3B3B3B;
-	color: #fff;
-	outline: none;
+  color: #fff;
+  background: url(../img/world.svg) no-repeat 16px 12px, url(../img/if.svg) no-repeat 151px 16px;
+  background-color: #3b3b3b;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0.9;
 }
 
 .language-wrapper {
-	width: 176px;
-	height: 40px;
-	overflow: hidden;
-	background-color:#3B3B3B;
+  z-index: -1;
+  width: 173px;
+  height: 40px;
+  overflow: hidden;
 }
 
-.links {
-	margin: 32px 0 40px;
-}
+.links { margin: 32px 0 40px; }
 
 .hashtag {
-	font-size: 16px;
-	margin: 0;
+  margin: 0;
+  font-size: 16px;
 }
 
-.hashtag-green {
-	color: #49A144;
-}
+.hashtag-green { color: #49a144; }
 
-.social {
-margin: 20px 0;
-}
+.social { margin: 20px 0; }
 
 .footer-link {
-	display: block;
-	color: #FFF;
-	text-decoration: none;
-	font-size: 13px;
-	margin-top: 23px;
-	font-weight: 200;
+  display: block;
+  margin-top: 23px;
+  font-size: 13px;
+  font-weight: 200;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-copywrite {
-	font-size: 11px;
-	margin-top: 23px;
+  margin-top: 23px;
+  font-size: 11px;
 }
 
-.btn-download {
-  margin: 40px 0;
-}
+.btn-download { margin: 40px 0; }
 
 .block-up {
   position: relative;
-  top:-30px;
+  top: -30px;
   right: 20px;
-  background-color: #59BD5A;
   width: 64px;
   height: 64px;
+  padding: 20px;
   text-align: center;
+  background-color: #59bd5a;
   border-radius: 2px;
-  padding:20px;
 }
